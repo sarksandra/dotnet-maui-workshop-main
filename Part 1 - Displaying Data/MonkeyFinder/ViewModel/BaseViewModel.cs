@@ -1,5 +1,6 @@
 ﻿namespace MonkeyFinder.ViewModel;
 
-public class BaseViewModel
+public class BaseViewModel : INotifyPropertyChanged
 {
+    public event PropertyChangedEventHandler PropertyChanged;
 }
